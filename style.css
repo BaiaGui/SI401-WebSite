@@ -144,3 +144,20 @@ margin-top: 40px;
 }
 
 /*CONTEÚDO-------------------------------------------------------------------------*/
+
+.gridContainerContent{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 100px;
+    padding: 10px 140px;
+    gap: 10px;
+}
+
+.pageTitle{
+    color: rgba(255, 255, 255, 0.459);
+    font-size: 60pt;
+    line-height: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
