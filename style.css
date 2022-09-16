@@ -158,7 +158,6 @@ width: 400px;
 .pageTitle{
     color: rgba(255, 255, 255, 0.459);
     font-size: 60pt;
-    line-height: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -215,22 +214,32 @@ width: 400px;
     grid-column: 2;
 }
 
-/* width */
+.green{
+    color: rgb(90, 219, 90);
+}
+
+.red{
+    color: rgb(204, 80, 80);
+}
+/* SCROLLBAR------------------------------------------------------------------------------------ */
+
+
+/* width 
 ::-webkit-scrollbar {
     width: 5px;
-  }
+  }*/
   
-  /* Track */
+  /* Track 
   ::-webkit-scrollbar-track {
     background: #1e1a31; 
-  }
+  }*/
    
-  /* Handle */
+  /* Handle 
   ::-webkit-scrollbar-thumb {
     background: rgb(105, 100, 121); 
-  }
+  }*/
   
-  /* Handle on hover */
+  /* Handle on hover 
   ::-webkit-scrollbar-thumb:hover {
     background: #FFD953; 
-  }
+  }*/
